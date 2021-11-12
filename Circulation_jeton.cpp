@@ -29,7 +29,7 @@ int main( int nargs, char* argv[] )
 
 	// On peut maintenant commencer à écrire notre programme parallèle en utilisant les
 	// services offerts par MPI.
-	std::cout << "Hello World, I'm processus 123 " << rank << " on " << nbp << " processes.\n";
+	std::cout << "Hello World, I'm processus 321 " << rank << " on " << nbp << " processes.\n";
 
 	// A la fin du programme, on doit synchroniser une dernière fois tous les processus
 	// afin qu'aucun processus ne se termine pendant que d'autres processus continue à
